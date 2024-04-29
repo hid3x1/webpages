@@ -128,3 +128,15 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# pnpm
+.pnpm-store/
+
+# generated types
+.astro/
+
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/

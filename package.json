@@ -1,13 +1,15 @@
 {
   "name": "webpages",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "biome lint ./src",
+    "format": "biome format --write ./src"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.10",
